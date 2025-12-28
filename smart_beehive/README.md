@@ -9,8 +9,8 @@ An IoT-based beehive monitoring system built with **ESP32** that measures enviro
 ![Web Dashboard](dashboard.png)
 
 ### 🔌 Hardware Wiring
-![Hardware Wiring]wiring 1.jpg)
-![Hardware Wiring]wiring 2.jpg)
+![Hardware Wiring](wiring 1.jpg)
+![Hardware Wiring](wiring 2.jpg)
 
 ### 🐝 Beehive Setup
 ![Beehive Setup](hive-setup.jpg)
