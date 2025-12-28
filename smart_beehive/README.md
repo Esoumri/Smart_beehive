@@ -94,3 +94,14 @@ An IoT-based beehive monitoring system built with **ESP32** that measures enviro
   "light_level": 3200,
   "system_active": true
 }
+## 📸 Project Images
+
+### 🖥️ Web Dashboard
+![Web Dashboard](dashboard.png)
+
+### 🔌 Hardware Wiring
+![Hardware Wiring]wiring1.jpg)
+![Hardware Wiring]wiring2.jpg)
+
+### 🐝 Beehive Setup
+![Beehive Setup](hive-setup.jpg)
