@@ -1,23 +1,28 @@
-# Smart Beehive Monitoring System (ESP32)
+Smart Beehive Monitoring System (ESP32)
+
+ 📸 Dashboard Preview
+
+Screenshots available here:  
+👉 https://beemonitor.vercel.app
 
 An IoT-based beehive monitoring system built with **ESP32** that measures environmental conditions and bee activity, displays data locally on an LCD, and sends real-time data to a remote server via HTTP API.
 
 ---
-## 📸 Project Images
+ 📸 Project Images
 
-### 🖥️ Web Dashboard
+🖥️ Web Dashboard
 ![Web Dashboard](dashboard.png)
 
-### 🔌 Hardware Wiring
+🔌 Hardware Wiring
 ![Hardware Wiring1](wiring1.jpg)
 
 ![Hardware Wiring2](wiring2.png)
 
-### 🐝 Beehive Setup
+🐝 Beehive Setup
 ![Beehive Setup](hive-setup.jpg)
 
 
-## 🚀 Features
+🚀 Features
 
 - 📡 Wi-Fi connectivity (ESP32)
 - 🌡️ Temperature & humidity monitoring
@@ -31,8 +36,7 @@ An IoT-based beehive monitoring system built with **ESP32** that measures enviro
 - 🔴🟢 Status LEDs indicating bee flow activity
 
 ---
-
-## 🧠 System Logic Overview
+ 🧠 System Logic Overview
 
 - The **LDR sensor** detects light level to determine day/night:
   - Day → IR sensor enabled
@@ -46,7 +50,7 @@ An IoT-based beehive monitoring system built with **ESP32** that measures enviro
 
 ---
 
-## 🧩 Hardware Components
+ 🧩 Hardware Components
 
 | Component | Description |
 |---------|------------|
@@ -61,9 +65,9 @@ An IoT-based beehive monitoring system built with **ESP32** that measures enviro
 
 ---
 
-## 🔌 Pin Configuration
+🔌 Pin Configuration
 
-### LCD (16x2)
+ LCD (16x2)
 | LCD Pin | ESP32 GPIO |
 |------|-----------|
 | RS | 14 |
@@ -73,7 +77,7 @@ An IoT-based beehive monitoring system built with **ESP32** that measures enviro
 | D6 | 33 |
 | D7 | 32 |
 
-### Sensors & Actuators
+Sensors & Actuators
 | Device | GPIO |
 |------|------|
 | DHT11 (Inside) | 21 |
@@ -86,16 +90,16 @@ An IoT-based beehive monitoring system built with **ESP32** that measures enviro
 
 ---
 
-## 🌐 Cloud Communication
+ 🌐 Cloud Communication
 
 - **Base API URL:**  
   `https://beemonitor.vercel.app/api`
 
-### Endpoints Used
+ Endpoints Used
 - `/sensor-data` → environmental data
 - `/bee-flow` → bee activity count
 
-### Data Sent (JSON)
+ Data Sent (JSON)
 ```json
 {
   "beehive_id": 21,
